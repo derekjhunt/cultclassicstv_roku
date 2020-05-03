@@ -14,7 +14,7 @@ Sub Main()
 ' *********************************************************
 ' ** HLS
 ' *********************************************************
-    videoclip.StreamUrls = ["https://cultclassics.tv:5080/LiveApp/streams/067596221033951067545499.m3u8"]
+    videoclip.StreamUrls = ["https://cultclassics.tv:5080/LiveApp/streams/556336427398358095038757.m3u8"]
 
     di = CreateObject("roDeviceInfo")
     if di.GetDisplayType() = "HDTV" then
@@ -27,7 +27,7 @@ Sub Main()
 ' ** Modify the info according to your channel name
 ' *********************************************************
     videoclip.StreamFormat = "hls"
-    videoclip.Title = "CultClassic.TV"
+    videoclip.Title = "CultClassics.TV"
     videoclip.SubtitleUrl = "Underground TV for the Infected."
     videoclip.switchingstrategy="full-adaptation"
 
